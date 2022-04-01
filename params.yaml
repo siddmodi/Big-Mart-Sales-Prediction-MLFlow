@@ -1,0 +1,18 @@
+# This contains params to be used by the stages to train or predict
+
+
+test_size : 0.20
+random_state : 42
+
+hyperparameter_tuning:
+  model__n_estimators : range(20,81,10),
+  model__min_samples_split : range(200,1001,200),
+  model__max_depth : range(5,16,2),
+  model__max_features : range(7,20,2),
+  model__subsample : [0.6,0.7,0.75,0.8,0.85,0.9],
+  model__min_samples_split : range(1000,2100,200),
+  model__min_samples_leaf : range(30,71,10)
+
+cv : 5 
+scoring : 'r2'
+

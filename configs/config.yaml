@@ -1,0 +1,12 @@
+# It contains all the configs required in the project
+
+cassandra_db:
+  source_url : 'Cassandra Db Details\secure-connect-db-sales.zip'
+  client_id : 'DxmbkiJCpphjwUnKdevnpFZS'
+  client_secret : '7+v27jhKEPqZHBhJ8Yn7cLO5gxN7F4fFKhZNuanQ5u22wEN,cuqgX7N+bCHsAa5UU7hTQ14ZW.-5,0Wg8tI1vyhu8APy.5YtNaHjwLwl,ldHzNpu7kGa60Ti,q+,N+Ux'
+ 
+data:
+  pipeline_dir : 'Pipeline'
+  pipeline_file : 'pipeline.joblib'
+  df_dir : 'Dataframe'
+  df_file : 'df.csv'
