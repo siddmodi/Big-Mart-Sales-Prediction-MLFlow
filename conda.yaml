@@ -27,6 +27,7 @@ dependencies:
     - geomet==0.2.1.post1
     - gitdb==4.0.9
     - gitpython==3.1.27
+    - gunicorn==20.1.0
     - greenlet==1.1.2
     - idna==3.3
     - importlib-metadata==4.11.3
