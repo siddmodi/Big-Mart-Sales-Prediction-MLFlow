@@ -55,7 +55,7 @@ def main(config_path,params_path):
     except Exception as e:
         logging.exception(f'Pipeline does not Trained/n Error occured : {e}')
 
-    if os.path.exists(pipeline_dir)==False:
+    if os.path.exists(config['data']['pipeline_dir'])==False:
         pipeline_dir = create_directories(config['data']['pipeline_dir'])
         pipeline_joblib = os.path.join(pipeline_dir,
                                     config['data']['pipeline_file'])
