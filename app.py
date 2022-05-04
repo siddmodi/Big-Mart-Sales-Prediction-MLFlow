@@ -7,7 +7,7 @@ import os
 import joblib
 import sklearn
 
-pipeline = joblib.load(open('Pipeline\pipeline.joblib','rb'))
+pipeline = joblib.load(open('pipeline.joblib','rb'))
 
 app = Flask(__name__)
 
